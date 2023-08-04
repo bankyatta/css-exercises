@@ -1,6 +1,27 @@
+/* delete when done */
+body {
+  background-color: red;
+}
+
 .header  {
   font-family: monospace;
-  background: papayawhip;
+  /*change back to papayawhip when done*/
+  background: blue;
+  /*newCode*/
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 7px;
+}
+
+/*newCode*/
+.left-links {
+  padding-left: 2%;
+}
+
+/*newCode*/
+.right-links {
+  padding-right: 2%;
 }
 
 .logo {
@@ -9,12 +30,39 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
+  /*newCode*/
+  text-align: center;
+  flex: auto;
+  margin: 7px 0;
 }
 
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  /*newCode*/
+  display: flex;
+  padding: 0;
+  gap: 7px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 a {
   font-size: 22px;
